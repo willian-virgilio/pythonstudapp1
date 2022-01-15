@@ -14,18 +14,14 @@ def count_char(s):
     
     """
     
-    sorted_caracters = sorted(s)
-    preview_caracter = sorted_caracters[0]
-    count = 1
+ 
     result = {}
-    for caracter in sorted_caracters[1:]:
-        if caracter == preview_caracter:
-            count += 1
-        else:
-            result[caracter] = count
-            preview_caracter = caracter
-            count = 1
-    result[preview_caracter] = count
+    for caracter in  s:
+        count  = result.get(caracter,0)
+        count += 1
+        result[caracter] = count
+
+
     return result
 if __name__ == '__main__':
     
