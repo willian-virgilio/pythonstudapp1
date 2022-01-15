@@ -22,10 +22,11 @@ def count_char(s):
             preview_caracter = caracter
             count = 1
     print(f'{preview_caracter}:{count}')
-    
+    # addd
 if __name__ == '__main__':
     count_char('willian')
     print()
     count_char('banana')
     print()
+    ##
     

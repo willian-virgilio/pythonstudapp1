@@ -14,7 +14,7 @@ def count_char(s):
     
     
     :param s: string to be counted
-    
+    xxx
     """
     
     sorted_caracters = sorted(s)
