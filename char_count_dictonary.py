@@ -17,10 +17,9 @@ def count_char(s):
  
     result = {}
     for caracter in  s:
-        count  = result.get(caracter,0)
-        count += 1
-        result[caracter] = count
-
+       result[caracter]  = result.get(caracter,0)
+        
+#
 
     return result
 if __name__ == '__main__':
